@@ -130,6 +130,11 @@
         width: 20%;
     }
 
+    .bodypart {
+        width: 80%;
+        left: 20%;
+    }
+
     .nav-title {
         display: none;
 
