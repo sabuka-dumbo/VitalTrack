@@ -37,8 +37,6 @@
     left: 26vw;
     width: 74vw;
     height: 100vh;
-    border-top-left-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
     background-color: #ffc09e6d;
 }
 
@@ -51,6 +49,6 @@
     font-size: 3vw;
     font-family: "Itim";
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: block;
 }
