@@ -28,7 +28,7 @@
     height: 100vh;
     border-top-right-radius: 0.5vw;
     border-bottom-right-radius: 0.5vw;
-    background-color: #ff9c668a;
+    background-color: #ff9c66b1;
 }
 
 .bodypart {
@@ -46,9 +46,26 @@
     left: 2vw;
     width: max-content;
     height: max-content;
+    padding-bottom: 2vw;
     font-size: 3vw;
     font-family: "Itim";
     font-weight: bold;
     color: rgb(0, 0, 0);
     display: block;
+}
+
+.nav-navs {
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+    width: max-content;
+    height: max-content;
+    font-size: 3vw;
+    font-family: "Itim";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1vw;
 }
