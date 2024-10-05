@@ -99,9 +99,9 @@
 .end-part2 {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+    width: 80%;
     height: 50px;
 }
 
