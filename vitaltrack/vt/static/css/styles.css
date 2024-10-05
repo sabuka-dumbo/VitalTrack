@@ -126,5 +126,34 @@
 }
 
 @media screen and (max-width: 720px) {
+    .nav-title {
+        display: none;
+
+    }
     
+    .nav-navs {
+        display: none;
+
+    }
+    
+    .small-text {
+        display: none;
+
+    }
+    
+    .end-part {
+        display: none;
+    }
+    
+    .end-part2 {
+        display: none;
+    }
+    
+    .nav-user {
+        display: none;
+    }
+    
+    .nav-user-pfp {
+        display: none;
+    }
 }
