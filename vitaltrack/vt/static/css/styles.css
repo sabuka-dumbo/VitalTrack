@@ -60,7 +60,7 @@
     left: 2vw;
     width: max-content;
     height: max-content;
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: "Itim";
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -73,7 +73,7 @@
 .small-text {
     position: relative;
     top: 2.5vw;
-    left: 2vw;
+    left: 2.5vw;
     width: max-content;
     height: max-content;
     font-size: 1.5vw;
