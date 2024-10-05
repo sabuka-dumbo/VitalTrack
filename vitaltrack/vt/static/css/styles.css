@@ -1,3 +1,55 @@
 .body {
     background-color: #EEEEEE;
 }
+
+.back-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.front-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(25px);
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26vw;
+    height: 100vh;
+    border-top-right-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    background-color: #ff9c668a;
+}
+
+.bodypart {
+    position: absolute;
+    top: 0;
+    left: 26vw;
+    width: 74vw;
+    height: 100vh;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    background-color: #ffc09e6d;
+}
+
+.nav-title {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    font-size: 2vw;
+    font-family: "Itim";
+    font-weight: bold;
+    color: aqua;
+}
