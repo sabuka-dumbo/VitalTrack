@@ -568,3 +568,26 @@
         rotate: -45deg;
     }
 }
+
+@keyframes navig_anim {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+        display: block;
+    }
+}
+
+@keyframes navig_anim2 {
+    0% {
+        display: block;
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
+}
