@@ -13,24 +13,19 @@ def login(request):
     if request.method == "POST":
         email = request.POST.get('email')
         password = request.POST.get('password')
-        
+
         if "@" not in email:
-            print("Please enter correct email:(")
             return HttpResponseRedirect(reverse('register'))
-        
-        if User.objects.all().filter(email=email):
-            print("found")
-            user = authenticate(email=email, password=password)
+
+        if User.objects.filter(email=email):
+            user = authenticate(request, username=User.objects.get(email=email).username, password=password)
 
             if user is not None:
                 auth_login(request, user)
-                print("succ. logined")
                 return HttpResponseRedirect(reverse("index"))
             else:
-                print("user is none")
                 return HttpResponseRedirect(reverse("login"))
         else:
-            print("Could not find anything...")
             return HttpResponseRedirect(reverse('register')) 
     else:
         return render(request, 'login.html')
