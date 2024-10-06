@@ -409,6 +409,16 @@
     }
 }
 
+@keyframes open-navbar1_1 {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
 @keyframes hide-bodypart1 {
     0% {
         opacity: 1;
@@ -516,5 +526,31 @@
 
     100% {
         left: -4.5vw;
+    }
+}
+
+@keyframes span1_1 {
+    0% {}
+
+    100% {
+        top: 3vw;
+        rotate: 45deg;
+    }
+}
+
+@keyframes span2_1 {
+    0% {}
+    
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes span3_1 {
+    0% {}
+
+    100% {
+        top: -3vw;
+        rotate: -45deg;
     }
 }
