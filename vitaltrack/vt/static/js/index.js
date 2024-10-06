@@ -64,6 +64,7 @@ burger_button.addEventListener("click", function() {
                 span3.style.top = "0";
                 span3.style.rotate = "0deg";
                 title2.style.left = "-4.5vw";
+                title2.style.opacity = "1";
             })
 
             navbar.style.animation = "open-navbar2 ease 1s";
