@@ -22,10 +22,13 @@
     border: none;
     background-color: #ff9e7761;
     backdrop-filter: blur(30px);
-    padding: 30px;
+    padding: 22px;
+    padding-right: 0px;
     border-radius: 2vw;
     margin-left: 20px;
+    margin-top: 10px;
     display: inline-block;
+    box-shadow: 5px 5px black 25px;
 }
 
 .cards_icons {
