@@ -284,4 +284,93 @@
         padding: 0;
         display: inline-block;
     }
+            
+    .moodtracker {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: max-content;
+        margin: 0;
+        padding: 0;
+        border-radius: 25px;
+        background-color: #ff9e7747;
+        backdrop-filter: blur(25px);
+        margin-left: 20px;
+    }
+
+    .text1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: max-content;
+        height: max-content;
+        margin: 0;
+        padding: 0;
+        margin: 20px;
+        padding-top: 20px;
+        font-size: 5vw;
+        font-family: "Itim";
+        font-weight: bold;
+    }
+
+    .range {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: max-content;
+        margin-left: 10%;
+        margin-top: 45px;
+        margin-bottom: 40px;
+    }
+
+    .smile {
+        position: absolute;
+        top: 32%;
+        right: 10%;
+        width: 5vw;
+        height: 5vw;
+        color: rgb(99, 162, 255);
+    }
+
+    .sad {
+        position: absolute;
+        top: 32%;
+        left: 10%;
+        width: 5vw;
+        height: 5vw;
+        color: rgb(99, 162, 255);
+    }
+
+    .normal {
+        position: absolute;
+        top: 32%;
+        left: calc(50% - 3vw);
+        width: 5vw;
+        height: 5vw;
+        color: rgb(99, 162, 255);
+    }
+
+    .submit_mood {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: max-content;
+        height: max-content;
+        font-size: 2vw;
+        font-family: "Itim";
+        font-weight: bold;
+        color: white;
+        background-color: rgb(99, 162, 255);
+        border: none;
+        border-radius: 1vw;
+        padding: 0;
+        margin: 0;
+        padding: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-left: calc(80% - 40px);
+        margin-bottom: 20px;
+    }
 }
