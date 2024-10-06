@@ -227,3 +227,61 @@
     color: rgb(228, 27, 27);
     margin-left: 10px;
 }
+
+@media screen and (max-width: 720px) {
+    .card {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: max-content;
+        border: none;
+        background-color: #ff9e7747;
+        backdrop-filter: blur(50px);
+        padding: 22px;
+        border-radius: 2vw;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: inline-block;
+        box-shadow: 5px 5px black 1px;
+    }
+
+    .cards_icons {
+        position: relative;
+        width: 5vw;
+        height: 5vw;
+        color: rgb(99, 162, 255);
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    .card_text1 {
+        position: absolute;
+        top: 2vw;
+        left: 80px;
+        width: max-content;
+        height: max-content;
+        font-size: 3.5vw;
+        font-family: "Itim";
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        display: ruby-text;
+    }
+
+    .card_text2 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: max-content;
+        height: max-content;
+        font-size: 4vw;
+        font-family: "Itim";
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+}
