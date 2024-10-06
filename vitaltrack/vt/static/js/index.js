@@ -37,6 +37,7 @@ burger_button.addEventListener("click", function() {
                     title2.style.opacity = "0";
                     navigations_div.style.animation = '';
                     navigations_div.style.opacity = "1";
+                    navigations_div.style.display = "block";
                 })
 
                 navbar.style.animation = "open-navbar1 ease 1s";
