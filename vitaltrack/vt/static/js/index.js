@@ -42,6 +42,21 @@ burger_button.addEventListener("click", function() {
                 ready = true;
             })
         } else {
+            span1.style.animation = "span1end ease 1s";
+            span2.style.animation = "span2end ease 1s";
+            span3.style.animation = "span3end ease 1s";
+            
+            span1.addEventListener("animationend", function() {
+                span1.style.animation = '';
+                span2.style.animation = '';
+                span3.style.animation = '';
+                span1.style.top = "0";
+                span1.style.rotate = "0deg";
+                span2.style.opacity = "1";
+                span3.style.top = "0";
+                span3.style.rotate = "0deg";
+            })
+
             navbar.style.animation = "open-navbar2 ease 1s";
         
             bodypart.style.animation = "hide-bodypart2 ease 1s";
