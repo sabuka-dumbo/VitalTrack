@@ -174,8 +174,34 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 95%;
+    width: 100%;
     height: max-content;
     border: none;
-    background-color: rgba(128, 128, 128, 0.162);
+    background-color: rgba(128, 128, 128, 0.059);
+    padding: 12px;
+}
+
+.meal_icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 3vw;
+    height: 3vw;
+    color: rgb(99, 162, 255);
+    margin-left: 10px;
+}
+
+.meal_name {
+    position: relative;
+    top: -1vw;
+    left: 0;
+    width: 50%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+    font-weight: normal;
+    font-family: "Itim";
+    display: inline-block;
+    margin-left: 20px;
 }
