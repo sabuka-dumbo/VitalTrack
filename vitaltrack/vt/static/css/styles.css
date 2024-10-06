@@ -125,14 +125,22 @@
     margin: 0;
 }
 
+.burger-menu {
+    display: none;
+}
+
+.nav-title2 {
+    display: none;
+}
+
 @media screen and (max-width: 720px) {
     .navbar {
-        width: 20%;
+        width: 15%;
     }
 
     .bodypart {
-        width: 80%;
-        left: 20%;
+        width: 85%;
+        left: 15%;
     }
 
     .nav-title {
@@ -164,5 +172,41 @@
     
     .nav-user-pfp {
         display: none;
+    }
+
+    .burger-menu {
+        position: absolute;
+        margin-top: 2vw;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+        height: max-content;
+        display: block;
+    }
+
+    .burgerstyle {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 8.5vw;
+        height: 1.5vw;
+        margin-top: 0.5vw;
+        display: block;
+        background-color: black;
+    }
+
+    .nav-title2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        rotate: -90deg;
+        font-size: 5vw;
+        font-family: "Itim";
+        font-weight: bold;
+        display: block;
+        margin: 0;
+        padding: 0;
     }
 }
