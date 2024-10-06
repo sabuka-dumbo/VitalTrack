@@ -21,7 +21,7 @@
 }
 
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 26vw;
@@ -32,12 +32,13 @@
 }
 
 .bodypart {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 26vw;
     width: 74vw;
     height: 100vh;
     background-color: #ffc09e6d;
+    overflow-y: auto;
 }
 
 .nav-title {
