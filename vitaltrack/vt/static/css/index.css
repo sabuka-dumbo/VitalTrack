@@ -23,7 +23,6 @@
     background-color: #ff9e7761;
     backdrop-filter: blur(30px);
     padding: 22px;
-    padding-right: 0px;
     border-radius: 2vw;
     margin-left: 20px;
     margin-top: 10px;
@@ -42,9 +41,9 @@
 }
 
 .card_text1 {
-    position: relative;
+    position: absolute;
     top: 1vw;
-    left: 0;
+    right: 22px;
     width: max-content;
     height: max-content;
     font-size: 1.5vw;
@@ -58,7 +57,7 @@
 .card_text2 {
     position: relative;
     top: 0;
-    left: 20px;
+    left: 5px;
     width: max-content;
     height: max-content;
     font-size: 2vw;
