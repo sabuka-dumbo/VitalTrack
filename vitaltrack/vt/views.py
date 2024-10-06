@@ -20,7 +20,7 @@ def login(request):
         
         if User.objects.all().filter(email=email):
             print("found")
-            user = authenticate(request, email=email, password=password)
+            user = authenticate(email=email, password=password)
 
             if user is not None:
                 auth_login(request, user)
