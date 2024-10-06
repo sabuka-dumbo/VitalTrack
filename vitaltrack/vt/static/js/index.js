@@ -5,6 +5,7 @@ const span3 = document.getElementById("span3");
 const navbar = document.getElementById("navbar");
 const bodypart = document.getElementById("bodypart");
 const title2 = document.getElementById("title2");
+const navigations_div = document.getElementById("navs_div");
 
 let open = false;
 let ready = true;
