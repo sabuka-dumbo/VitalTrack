@@ -20,8 +20,8 @@
     width: calc(100% / 4);
     height: max-content;
     border: none;
-    background-color: #ff9e7761;
-    backdrop-filter: blur(30px);
+    background-color: #ff9e7747;
+    backdrop-filter: blur(50px);
     padding: 22px;
     border-radius: 2vw;
     margin-left: 20px;
