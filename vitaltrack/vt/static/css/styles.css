@@ -86,6 +86,11 @@
     padding-bottom: 1vw;
 }
 
+.nav_icons {
+    width: 4.5vw;
+    height: 42vw;
+}
+
 .end-part {
     position: absolute;
     bottom: 1px;
@@ -216,10 +221,11 @@
     .nav-navs {
         position: relative;
         top: 0%;
-        left: 2vw;
+        left: 10%;
+        transform: translateX(-10%);
         width: max-content;
         height: max-content;
-        font-size: 2vw;
+        font-size: 5vw;
         font-family: "Itim";
         font-weight: bold;
         color: rgb(255, 255, 255);
