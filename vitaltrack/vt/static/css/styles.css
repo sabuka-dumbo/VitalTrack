@@ -178,8 +178,7 @@
         position: absolute;
         margin-top: 2vw;
         top: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 3.5vw;
         width: max-content;
         height: max-content;
         display: block;
@@ -199,7 +198,7 @@
     .nav-title2 {
         position: absolute;
         top: 50%;
-        right: -75%;
+        left: -4.5vw;
         transform: translateY(-50%);
         rotate: -90deg;
         font-size: 7vw;
@@ -208,5 +207,45 @@
         display: block;
         margin: 0;
         padding: 0;
+    }
+}
+
+@keyframes open-navbar1 {
+    0% {
+        width: 15%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes hide-bodypart1 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes open-navbar2 {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
+@keyframes hide-bodypart2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
