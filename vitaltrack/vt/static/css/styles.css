@@ -143,9 +143,6 @@
 }
 
 @media screen and (max-width: 720px) {
-    .navs_div {
-        display: none;
-    }
     .navbar {
         width: 15%;
     }
@@ -191,7 +188,7 @@
     }
 
     .navs_div {
-        display: block;
+        display: none;
         top: 0;
         left: 20vw;
         position: relative;

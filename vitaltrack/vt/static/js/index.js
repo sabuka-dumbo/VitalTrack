@@ -89,12 +89,14 @@ burger_button.addEventListener("click", function() {
         if (ready = true) {
             ready = false
 
+
             if (open == false) {
                 span1.style.animation = "span1 ease 1s";
                 span2.style.animation = "span2 ease 1s";
                 span3.style.animation = "span3 ease 1s";
                 title2.style.animation = "title_anim ease 1s";
                 navigations_div.style.animation = "span2end ease 1s";
+                navigations_div.style.display = "block";
                 
                 span1.addEventListener("animationend", function() {
                     span1.style.animation = '';
