@@ -24,6 +24,8 @@
     backdrop-filter: blur(30px);
     padding: 30px;
     border-radius: 2vw;
+    margin-left: 20px;
+    display: inline-block;
 }
 
 .cards_icons {
