@@ -218,3 +218,12 @@
     color: rgb(228, 27, 27);
     margin-left: 10px;
 }
+
+.meal_remove {
+    position: absolute;
+    top: 10px;
+    width: 2vw;
+    height: 2vw;
+    color: rgb(228, 27, 27);
+    margin-left: 10px;
+}
