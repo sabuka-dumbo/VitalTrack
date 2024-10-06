@@ -193,7 +193,7 @@
 
 .meal_name {
     position: relative;
-    top: -1vw;
+    top: -0.5vw;
     left: 0;
     width: 50%;
     height: max-content;
@@ -211,10 +211,10 @@
 
 .meal_remove {
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 40px;
-    width: 3vw;
-    height: 3vw;
-    color: rgb(255, 99, 99);
+    width: 2vw;
+    height: 2vw;
+    color: rgb(228, 27, 27);
     margin-left: 10px;
 }
