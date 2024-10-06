@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-
+from django.contrib.auth import login as auth_login
 from .models import *
 
 # Create your views here.
@@ -30,8 +30,13 @@ def register(request):
             print("Email is already taken:(")
             return HttpResponseRedirect(reverse('register')) 
         
-        
+        new_user = User(username=username, email=email, password=password)
+        new_user.save()
 
-        return HttpResponseRedirect(reverse('index'))
+        if new_user is not None:
+            auth_login(request, new_user)
+            return HttpResponseRedirect(reverse("index"))
+        else:
+            return HttpResponseRedirect(reverse("register"))
     else:
         return render(request, 'register.html')
