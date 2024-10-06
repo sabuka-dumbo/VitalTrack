@@ -13,14 +13,39 @@
     margin-left: 20px;
 }
 
-.card1 {
+.card {
     position: relative;
     top: 0;
     left: 0;
     width: max-content;
     height: max-content;
     border: none;
-    background-color: bisque;
+    background-color: #ff9e7761;
     backdrop-filter: blur(30px);
     padding: 30px;
+    border-radius: 2vw;
+}
+
+.cards_icons {
+    position: relative;
+    width: 2.5vw;
+    height: 2.5vw;
+    color: rgb(99, 162, 255);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.card_text1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    font-size: 1.5vw;
+    font-family: "Itim";
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
