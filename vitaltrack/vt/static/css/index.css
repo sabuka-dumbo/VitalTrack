@@ -228,7 +228,21 @@
     margin-left: 10px;
 }
 
+.category2 {
+    font-size: 3vw; 
+    color: gray;
+}
+
 @media screen and (max-width: 720px) {
+    .category {
+        font-size: 6.5vw;
+    }
+
+    .category2 {
+        font-size: 5vw; 
+        color: gray;
+    }
+
     .card {
         position: relative;
         top: 0;
@@ -297,6 +311,9 @@
         background-color: #ff9e7747;
         backdrop-filter: blur(25px);
         margin-left: 20px;
+        padding: 22px;
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
 
     .text1 {
@@ -372,5 +389,69 @@
         padding-top: 5px;
         margin-left: calc(80% - 40px);
         margin-bottom: 20px;
+    }
+
+    .meal_list {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: max-content;
+        margin-left: 20px;
+        border-radius: 1vw;
+        background-color: #ff9e7747;
+        backdrop-filter: blur(25px);
+        padding: 22px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    
+    .meal {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: max-content;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.059);
+        padding: 12px;
+    }
+    
+    .meal_icon {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 5vw;
+        height: 5vw;
+        color: rgb(99, 162, 255);
+        margin-left: 10px;
+    }
+    
+    .meal_name {
+        position: relative;
+        top: -0.5vw;
+        left: 0;
+        width: 50%;
+        height: max-content;
+        margin: 0;
+        padding: 0;
+        font-size: 3.5vw;
+        font-weight: normal;
+        font-family: "Itim";
+        display: inline-block;
+        margin-left: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .meal_remove {
+        position: absolute;
+        top: 10px;
+        right: 40px;
+        width: 5vw;
+        height: 5vw;
+        color: rgb(228, 27, 27);
+        margin-left: 10px;
     }
 }
