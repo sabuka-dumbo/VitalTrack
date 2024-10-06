@@ -204,4 +204,17 @@
     font-family: "Itim";
     display: inline-block;
     margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.meal_remove {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    width: 3vw;
+    height: 3vw;
+    color: rgb(255, 99, 99);
+    margin-left: 10px;
 }
