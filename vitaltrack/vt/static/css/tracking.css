@@ -12,3 +12,69 @@
     margin-bottom: 30px;
     margin-left: 20px;
 }
+
+.water_div {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;    
+    background-color: #ff9e7747;
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+
+.water_title {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5vw;
+    font-family: "Itim";
+    font-weight: bold;
+    color: gray;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.water_took {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+    font-family: "Itim";
+    font-weight: bold;
+    color: rgb(99, 162, 255);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.take {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2vw;
+    font-family: "Itim";
+    font-weight: normal;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(99, 162, 255);
+    color: white;
+    margin-bottom: 15px;
+}
