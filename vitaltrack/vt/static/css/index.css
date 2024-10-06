@@ -105,6 +105,33 @@
     width: 80%;
     height: max-content;
     margin-left: 10%;
-    margin-top: 30px;
+    margin-top: 45px;
     margin-bottom: 40px;
+}
+
+.smile {
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    width: 3vw;
+    height: 3vw;
+    color: rgb(99, 162, 255);
+}
+
+.sad {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 3vw;
+    height: 3vw;
+    color: rgb(99, 162, 255);
+}
+
+.normal {
+    position: absolute;
+    top: 45%;
+    left: calc(50% - 3vw);
+    width: 3vw;
+    height: 3vw;
+    color: rgb(99, 162, 255);
 }
