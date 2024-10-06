@@ -1,0 +1,47 @@
+.body {
+    background-color: #EEEEEE;
+}
+
+.part1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 100vh;
+}
+
+.part2 {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    width: 60vw;
+    height: 100vh;
+}
+
+.login_img {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    width: 30vw;
+    height: 80vh;
+    object-fit:contain;
+}
+
+.title {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 5vw;
+    font-family: "Itim";
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
