@@ -439,6 +439,16 @@
     }
 }
 
+@keyframes open-navbar2_1 {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
 @keyframes hide-bodypart2 {
     0% {
         opacity: 0;

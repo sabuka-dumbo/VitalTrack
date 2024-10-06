@@ -68,14 +68,14 @@ burger_button.addEventListener("click", function() {
                     title2.style.opacity = "1";
                 })
 
-                navbar.style.animation = "open-navbar2 ease 1s";
+                navbar.style.animation = "open-navbar2_1 ease 1s";
             
                 bodypart.style.animation = "hide-bodypart2 ease 1s";
             
                 navbar.addEventListener("animationend", function() {
                     navbar.style.animation = '';
                     bodypart.style.animation = '';
-                    navbar.style.width = "15%";
+                    navbar.style.width = "20%";
                     bodypart.style.opacity = "1";
             
                     open = false;
