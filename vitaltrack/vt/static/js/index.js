@@ -20,6 +20,8 @@ burger_button.addEventListener("click", function() {
                 span2.style.animation = "span2_1 ease 1s";
                 span3.style.animation = "span3_1 ease 1s";
                 title2.style.animation = "title_anim ease 1s";
+                navigations_div.style.animation = "navig_anim ease 1s";
+                navigations_div.style.display = "block";
                 
                 span1.addEventListener("animationend", function() {
                     span1.style.animation = '';
@@ -33,6 +35,8 @@ burger_button.addEventListener("click", function() {
                     span3.style.rotate = "-45deg";
                     title2.style.left = "-20vw";
                     title2.style.opacity = "0";
+                    navigations_div.style.animation = '';
+                    navigations_div.style.opacity = "1";
                 })
 
                 navbar.style.animation = "open-navbar1 ease 1s";
@@ -54,6 +58,8 @@ burger_button.addEventListener("click", function() {
                 span3.style.animation = "span3end ease 1s";
                 title2.style.animation = "title_anim_end ease 1s";
                 title2.style.opacity = "1";
+                title2.style.opacity = "1";
+                navigations_div.style.animation = "span2 ease 1s";
                 
                 span1.addEventListener("animationend", function() {
                     span1.style.animation = '';
@@ -67,6 +73,9 @@ burger_button.addEventListener("click", function() {
                     span3.style.rotate = "0deg";
                     title2.style.left = "-4.5vw";
                     title2.style.opacity = "1";
+                    navigations_div.style.animation = '';
+                    navigations_div.style.opacity = "0";
+                    navigations_div.style.display = "none";
                 })
 
                 navbar.style.animation = "open-navbar2_1 ease 1s";
@@ -149,6 +158,7 @@ burger_button.addEventListener("click", function() {
                     title2.style.opacity = "1";
                     navigations_div.style.animation = '';
                     navigations_div.style.opacity = "0";
+                    navigations_div.style.display = "none";
                 })
 
                 navbar.style.animation = "open-navbar2 ease 1s";
