@@ -13,6 +13,21 @@ burger_button.addEventListener("click", function() {
         ready = false
 
         if (open == false) {
+            span1.style.animation = "span1 ease 1s";
+            span2.style.animation = "span2 ease 1s";
+            span3.style.animation = "span3 ease 1s";
+            
+            span1.addEventListener("animationend", function() {
+                span1.style.animation = '';
+                span2.style.animation = '';
+                span3.style.animation = '';
+                span1.style.top = "2vw";
+                span1.style.rotate = "45deg";
+                span2.style.opacity = "0";
+                span3.style.top = "-2vw";
+                span3.style.rotate = "-45deg";
+            })
+
             navbar.style.animation = "open-navbar1 ease 1s";
         
             bodypart.style.animation = "hide-bodypart1 ease 1s";

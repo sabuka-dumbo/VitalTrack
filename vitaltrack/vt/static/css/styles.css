@@ -249,3 +249,55 @@
         opacity: 1;
     }
 }
+
+@keyframes span1 {
+    0% {}
+
+    100% {
+        top: 2vw;
+        rotate: 45deg;
+    }
+}
+
+@keyframes span2 {
+    0% {}
+    
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes span3 {
+    0% {}
+
+    100% {
+        top: -2vw;
+        rotate: -45deg;
+    }
+}
+
+@keyframes span1end {
+    0% {}
+
+    100% {
+        top: 0;
+        rotate: 0deg;
+    }
+}
+
+@keyframes span2end {
+    0% {}
+    
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes span3end {
+    0% {}
+
+    100% {
+        top: 0;
+        rotate: 0deg;
+    }
+}
