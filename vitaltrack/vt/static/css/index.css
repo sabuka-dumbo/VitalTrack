@@ -28,7 +28,7 @@
     margin-left: 20px;
     margin-top: 10px;
     display: inline-block;
-    box-shadow: 5px 5px black 25px;
+    box-shadow: 5px 5px black 1px;
 }
 
 .cards_icons {
