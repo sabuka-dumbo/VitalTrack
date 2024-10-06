@@ -4,6 +4,7 @@ const span2 = document.getElementById("span2");
 const span3 = document.getElementById("span3");
 const navbar = document.getElementById("navbar");
 const bodypart = document.getElementById("bodypart");
+const title2 = document.getElementById("title2");
 
 let open = false;
 let ready = true;
@@ -16,16 +17,20 @@ burger_button.addEventListener("click", function() {
             span1.style.animation = "span1 ease 1s";
             span2.style.animation = "span2 ease 1s";
             span3.style.animation = "span3 ease 1s";
+            title2.style.animation = "title_anim ease 1s";
             
             span1.addEventListener("animationend", function() {
                 span1.style.animation = '';
                 span2.style.animation = '';
                 span3.style.animation = '';
+                title2.style.animation = '';
                 span1.style.top = "2vw";
                 span1.style.rotate = "45deg";
                 span2.style.opacity = "0";
                 span3.style.top = "-2vw";
                 span3.style.rotate = "-45deg";
+                title2.style.left = "-20vw";
+                title2.style.opacity = "0";
             })
 
             navbar.style.animation = "open-navbar1 ease 1s";
@@ -45,16 +50,20 @@ burger_button.addEventListener("click", function() {
             span1.style.animation = "span1end ease 1s";
             span2.style.animation = "span2end ease 1s";
             span3.style.animation = "span3end ease 1s";
+            title2.style.animation = "title_anim_end ease 1s";
+            title2.style.opacity = "1";
             
             span1.addEventListener("animationend", function() {
                 span1.style.animation = '';
                 span2.style.animation = '';
                 span3.style.animation = '';
+                title2.style.animation = '';
                 span1.style.top = "0";
                 span1.style.rotate = "0deg";
                 span2.style.opacity = "1";
                 span3.style.top = "0";
                 span3.style.rotate = "0deg";
+                title2.style.left = "-4.5vw";
             })
 
             navbar.style.animation = "open-navbar2 ease 1s";
