@@ -101,8 +101,6 @@ burger_button.addEventListener("click", function() {
 
 
             if (open == false) {
-                console.log('s2')
-
                 span1.style.animation = "span1 ease 1s";
                 span2.style.animation = "span2 ease 1s";
                 span3.style.animation = "span3 ease 1s";
@@ -141,7 +139,6 @@ burger_button.addEventListener("click", function() {
                     ready = true;
                 })
             } else {
-                console.log('s')
                 span1.style.animation = "span1end ease 1s";
                 span2.style.animation = "span2end ease 1s";
                 span3.style.animation = "span3end ease 1s";
