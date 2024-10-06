@@ -45,3 +45,16 @@
     text-align: center;
     color: black;
 }
+
+.input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 30px;
+}
