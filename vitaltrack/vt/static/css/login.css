@@ -50,11 +50,26 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 75%;
+    width: 70%;
     height: 40px;
     margin: 0;
     padding: 0;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
     margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+    border-radius: 0.2vw;
+    background-color: azure;
+    font-size: 2vw;
+    font-family: "Itim";
+    outline: none;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.input:focus {
+    border: none;
+    outline: none;
+    background-color: rgb(211, 230, 230);
 }
