@@ -181,9 +181,53 @@
     .navs_div {
         display: block;
         top: 0;
+        left: 20vw;
         position: relative;
         width: 80vw;
         height: 100vh;
+    }
+
+    .nav-title {
+        position: relative;
+        left: 35%;
+        transform: translateX(-35%);
+        font-size: 8vw;
+    }
+
+    .small-text {
+        position: relative;
+        top: 0vw;
+        left: 2.5vw;
+        width: max-content;
+        height: max-content;
+        font-size: 1.5vw;
+        font-family: "Itim";
+        font-weight: normal;
+        color: rgb(128, 128, 128);
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1vw;
+    }
+
+    .nav-navs {
+        position: relative;
+        top: 0%;
+        left: 2vw;
+        width: max-content;
+        height: max-content;
+        font-size: 2vw;
+        font-family: "Itim";
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1vw;
+    }
+
+    .end-part {
+        background-color: #eeeeee00;
     }
 }
 
