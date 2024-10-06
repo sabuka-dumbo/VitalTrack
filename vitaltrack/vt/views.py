@@ -3,13 +3,37 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.contrib.auth import login as auth_login
 from .models import *
+from django.contrib.auth import authenticate
 
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
 
 def login(request):
-    return render(request, 'login.html')
+    if request.method == "POST":
+        email = request.POST.get('email')
+        password = request.POST.get('password')
+        
+        if "@" not in email:
+            print("Please enter correct email:(")
+            return HttpResponseRedirect(reverse('register'))
+        
+        if User.objects.all().filter(email=email):
+            print("found")
+            user = authenticate(request, email=email, password=password)
+
+            if user is not None:
+                auth_login(request, user)
+                print("succ. logined")
+                return HttpResponseRedirect(reverse("index"))
+            else:
+                print("user is none")
+                return HttpResponseRedirect(reverse("login"))
+        else:
+            print("Could not find anything...")
+            return HttpResponseRedirect(reverse('register')) 
+    else:
+        return render(request, 'login.html')
 
 def register(request):
     if request.method == "POST":
