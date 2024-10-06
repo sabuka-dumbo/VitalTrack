@@ -59,3 +59,6 @@ def register(request):
             return HttpResponseRedirect(reverse("register"))
     else:
         return render(request, 'register.html')
+    
+def tracking(request):
+    return render(request, "tracking.html")

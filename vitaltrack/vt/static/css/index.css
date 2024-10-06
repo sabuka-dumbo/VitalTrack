@@ -168,6 +168,7 @@
     border-radius: 1vw;
     background-color: #ff9e7747;
     backdrop-filter: blur(25px);
+    margin-bottom: 20px;
 }
 
 .meal {
