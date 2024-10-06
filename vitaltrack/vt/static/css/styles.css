@@ -189,18 +189,21 @@
 
     .nav-title {
         position: relative;
+        top: 0vw;
         left: 35%;
         transform: translateX(-35%);
         font-size: 8vw;
+        padding-bottom: 0.5vw;
     }
 
     .small-text {
         position: relative;
         top: 0vw;
-        left: 2.5vw;
+        left: 10%;
+        transform: translateX(-10%);
         width: max-content;
         height: max-content;
-        font-size: 1.5vw;
+        font-size: 3vw;
         font-family: "Itim";
         font-weight: normal;
         color: rgb(128, 128, 128);
