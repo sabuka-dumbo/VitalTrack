@@ -199,10 +199,10 @@
     .nav-title2 {
         position: absolute;
         top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 0;
+        transform: translateY(-50%);
         rotate: -90deg;
-        font-size: 5vw;
+        font-size: 7vw;
         font-family: "Itim";
         font-weight: bold;
         display: block;
