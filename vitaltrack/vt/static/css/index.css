@@ -17,7 +17,7 @@
     position: relative;
     top: 0;
     left: 0;
-    width: max-content;
+    width: calc(100% / 4);
     height: max-content;
     border: none;
     background-color: #ff9e7761;
@@ -38,12 +38,13 @@
     display: inline-block;
     margin: 0;
     padding: 0;
+    margin-right: 20px;
 }
 
 .card_text1 {
     position: absolute;
     top: 1vw;
-    right: 22px;
+    left: 80px;
     width: max-content;
     height: max-content;
     font-size: 1.5vw;
@@ -57,7 +58,7 @@
 .card_text2 {
     position: relative;
     top: 0;
-    left: 5px;
+    left: 10px;
     width: max-content;
     height: max-content;
     font-size: 2vw;
