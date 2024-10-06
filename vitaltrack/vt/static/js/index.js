@@ -121,7 +121,6 @@ burger_button.addEventListener("click", function() {
                     title2.style.left = "-20vw";
                     title2.style.opacity = "0";
                     navigations_div.style.animation = '';
-                    navigations_div.style.opacity = "1";
                 })
 
                 navbar.style.animation = "open-navbar1 ease 1s";
@@ -138,6 +137,7 @@ burger_button.addEventListener("click", function() {
                     ready = true;
                 })
             } else {
+                print('s')
                 span1.style.animation = "span1end ease 1s";
                 span2.style.animation = "span2end ease 1s";
                 span3.style.animation = "span3end ease 1s";
@@ -158,7 +158,6 @@ burger_button.addEventListener("click", function() {
                     title2.style.left = "-4.5vw";
                     title2.style.opacity = "1";
                     navigations_div.style.animation = '';
-                    navigations_div.style.opacity = "0";
                     navigations_div.style.display = "none";
                 })
 
