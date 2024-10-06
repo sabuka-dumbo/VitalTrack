@@ -244,6 +244,159 @@
         background-color: #eeeeee00;
         bottom: 10vw;
     }
+
+    .nav-user {
+        position: absolute;
+        top: 0;
+        left: 40%;
+        transform: translateX(-40%);
+        font-size: 3.5vw;
+        font-family: "Itim";
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav-user-pfp {
+        position: relative;
+        top: 0.5vw;
+        left: 0;
+        width: 2.5vw;
+        height: 2.5vw;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 20%;
+    }
+
+    .bodypart {
+        width: 80%;
+        left: 20%;
+    }
+
+    .burger-menu {
+        position: absolute;
+        margin-top: 2vw;
+        top: 0;
+        left: 3.5vw;
+        width: max-content;
+        height: max-content;
+        display: block;
+    }
+
+    .burgerstyle {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 10.5vw;
+        height: 2vw;
+        margin-top: 1vw;
+        display: block;
+        background-color: black;
+    }
+
+    .nav-title2 {
+        position: absolute;
+        top: 50%;
+        left: -4vw;
+        transform: translateY(-50%);
+        rotate: -90deg;
+        font-size: 9vw;
+        font-family: "Itim";
+        font-weight: bold;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navs_div {
+        display: block;
+        top: 0;
+        left: 20vw;
+        position: relative;
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .nav-title {
+        position: relative;
+        top: 0vw;
+        left: 35%;
+        transform: translateX(-35%);
+        font-size: 12vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .small-text {
+        position: relative;
+        top: 0vw;
+        left: 40%;
+        transform: translateX(-40%);
+        width: max-content;
+        height: max-content;
+        font-size: 5vw;
+        font-family: "Itim";
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1vw;
+    }
+
+    .nav-navs {
+        position: relative;
+        top: 0%;
+        left: 40%;
+        transform: translateX(-40%);
+        width: max-content;
+        height: max-content;
+        font-size: 8vw;
+        font-family: "Itim";
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1vw;
+    }
+
+    .nav_icons {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+
+    .end-part {
+        background-color: #eeeeee00;
+        bottom: 10vw;
+    }
+
+    .nav-user {
+        position: absolute;
+        top: 0;
+        left: 40%;
+        transform: translateX(-40%);
+        font-size: 8vw;
+        font-family: "Itim";
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        width: max-content;
+    }
+    
+    .nav-user-pfp {
+        position: relative;
+        top: 0.5vw;
+        left: 0;
+        width: 6.5vw;
+        height: 6.5vw;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @keyframes open-navbar1 {
