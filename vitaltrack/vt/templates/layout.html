@@ -12,11 +12,11 @@
         <img src="https://img.freepik.com/free-photo/architectural-black-white-background_23-2150530901.jpg" class="back-pic">
         <div class="front-cover"></div>
 
-        <nav class="navbar">
-            <div class="burger-menu">
-                <span class="burgerstyle burgermenu1"></span>
-                <span class="burgerstyle burgermenu2"></span>
-                <span class="burgerstyle burgermenu3"></span>
+        <nav class="navbar" id="navbar">
+            <div class="burger-menu" id="burger-menu">
+                <span class="burgerstyle burgermenu1" id="span1"></span>
+                <span class="burgerstyle burgermenu2" id="span2"></span>
+                <span class="burgerstyle burgermenu3" id="span3"></span>
             </div>
 
             <h1 class="nav-title2">VitalTrack</h1>
@@ -57,5 +57,7 @@
             {% block body %}
             {% endblock %}
         </div>
+
+        <script src="{% static '/js/index.js' %}"></script>
     </body>
 </html>
